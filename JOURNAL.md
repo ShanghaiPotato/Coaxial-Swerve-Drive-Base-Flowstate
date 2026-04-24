@@ -7,4 +7,4 @@ created_at: 2026-4-23
 ### Total time spent: 3.5 Hours
 
 ## Day 1 - Designing the Base of the Swerve Drive - April 23rd - 3.5 Hours
-![alt text](WheelPartLightenedSideIsometricView.png "Isometric view of the wheel")
+![alt text](C:\Users\nicol\OneDrive\Documents\skybound\Coaxial-Swerve-Drive-Base-Flowstate\Images\CAD-Images\Day 1\BothSweveDriveSpacersIsometricView.png)
