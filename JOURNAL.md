@@ -7,4 +7,4 @@ created_at: 2026-4-23
 ### Total time spent: 3.5 Hours
 
 ## Day 1 - Designing the Base of the Swerve Drive - April 23rd - 3.5 Hours
-![title](Images\CAD-Images\Day 1\DayOneProgressIsometricViewAbove.png)
+![title](Images\CAD-Images\Day1\DayOneProgressIsometricViewAbove.png)
