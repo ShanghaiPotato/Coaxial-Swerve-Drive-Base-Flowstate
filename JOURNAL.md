@@ -4,9 +4,9 @@ author: Ziqi Guan
 description: This will be a four-wheel coaxial swerve drive robot. It will just be a drive base; however, it is completely custom. 
 created_at: 2026-4-23
 ---
-### Total time spent: 3.5 Hours
+### Total time spent: 0 Hours
 
-## Day 1 - Designing the Base of the Swerve Drive - April 23rd - 3.5 Hours
+## Day 1 - Designing the Base of the Swerve Drive - April 23rd - 0 Hours
 
 Today was just laying down the basics of the swerve drive by making the individual module. I did some research into which motors I want to use, and I decided to use the HD Hex motor and the Core Hex motor from Rev Robotics because they have a small form factor and are brushed motors. The brushed motors allow me to use cheaper motor controllers instead of the expensive $50-100 dollar ones that can be sold online. 
 
@@ -38,6 +38,9 @@ After getting the wheels made, I switched to making the mounting plate as it als
 ![Top view of the halfway done mounting part](Images/CADImages/Day1/MountingPlateHalfwayProgressTopView.png)
 
 Also as a side note, I modeled the bearings I want to use as Swerve Drive Specialties, the vendor I plan on getting 4" x 3.5" x .25" bearings from doesn't have a CAD or drawing, so I based it off of my best guesses for the size. It turns out that my guess was very close to the actual dimensions, so I didn't need to redo anything there. 
+
 ![Top view of the bearing](Images/CADImages/Day1/4in-x-3.5in-x-.25inBearingTopView.png)
+
+The brackets to mount the wheel onto took a surprising amount of time as a lot of its geometry matters. I initially had a very rounded design, but I eventually settled on this very angular design. A key thing about the 
 
 ![Day 1 progress (Above Isometric View)](Images/CADImages/Day1/DayOneProgressIsometricViewAbove.png)
