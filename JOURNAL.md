@@ -104,3 +104,24 @@ Here are just some visualization photos of everything done so far in one piece. 
 ![Day 1 progress (Top View)](Images/CADImages/Day1/DayOneProgressTopView.png)
 
 Anyways, that was about everything done today so far, and the next task is to create the motor packaging that will power this entire setup. 
+
+## Day 1 - Making the proper motion transfer - April 24rd - 1 Hours 37 mins
+
+Today's focus was trying to figure out motor placement. It matters a lot because packaging impacts the footprint and arraigment of everything. 
+
+Major thing was adding the hole for the HD hex motor in the mounting plates as I want the motor to be inverted (similar to the MK4n where the motors shafts are facing upwards) to have a smaller profile. This comes at the cost that the motors are more suceptable to damage over rougher terrain, however, this isn't mean't for much aside from inclines and bumps. Another major change I did with the mounting plate was the addition of the mounting points for the Core motor and more holes for the top mounting plate and bottom mounting plate to be secured together. 
+
+![Day two version of the mounting plate (Top View)](Images/CADImages/Day2/MountingPlateTopViewDayTwo.png)
+
+Next thing I did was I added the helical gears that would transfer motion from the HD hex motor to the wheel. I'm going to adjust the gear ratios a bit more because the gear is way too big aesthetically for my liking. 
+
+Here are some photos, the motion is going to be restrained on the top and bottom. 
+![Driving gears top view](Images/CADImages/Day2/DrivingMotorsTopView.png)
+
+![Driving gears bottom view](Images/CADImages/Day2/DrivingGearsBottomView.png)
+
+![Driving gears side view](Images/CADImages/Day2/DrivingMotorsSideView.png)
+
+Anyways, that was most of it for today. I wish I could have gotten more done, however, the helical spur gears are killing the OnShape regeneration time. 
+
+Side note: I am going to be using an ESP-32 S3 for the micro-controller. I am researching how it works right now, but the main reason why I chose it was because it has wifi and bluetooth capabilities, meaning I can just use my phone or laptap and connect to it. Then using a website, you can control the robot. No fancy controller required. 
