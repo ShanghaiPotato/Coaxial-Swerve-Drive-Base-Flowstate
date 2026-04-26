@@ -4,7 +4,7 @@ author: Ziqi Guan
 description: This will be a four-wheel coaxial swerve drive robot. It will just be a drive base; however, it is completely custom. 
 created_at: 2026-4-23
 ---
-### Total time spent: 0 Hours
+### Total time spent: 6 Hours 7 mins
 
 #### Onshape Link: https://cad.onshape.com/documents/4e4e67b789c32e1c62490b55/w/3b147ca839286fae5a01baae/e/5d2ccd93d79c945d351b1f5a
 ## Day 1 - Designing the Base of the Swerve Drive - April 23rd - 0 Hours
@@ -105,7 +105,7 @@ Here are just some visualization photos of everything done so far in one piece. 
 
 Anyways, that was about everything done today so far, and the next task is to create the motor packaging that will power this entire setup. 
 
-## Day 1 - Making the proper motion transfer - April 24rd - 1 Hours 37 mins
+## Day 2 - Making the proper motion transfer - April 24rd - 1 Hours 37 mins
 
 Today's focus was trying to figure out motor placement. It matters a lot because packaging impacts the footprint and arraigment of everything. 
 
@@ -125,3 +125,45 @@ Here are some photos, the motion is going to be restrained on the top and bottom
 Anyways, that was most of it for today. I wish I could have gotten more done, however, the helical spur gears are killing the OnShape regeneration time. 
 
 Side note: I am going to be using an ESP-32 S3 for the micro-controller. I am researching how it works right now, but the main reason why I chose it was because it has wifi and bluetooth capabilities, meaning I can just use my phone or laptap and connect to it. Then using a website, you can control the robot. No fancy controller required. 
+
+## Day 3 - Creating the chassis - April 25rd - 4 Hours 30 mins
+
+Today was finishing the entire drive base, or at least most of it. The main time since was just readjusting all of the geometry again since it wasn't that optimized. After spending about an hour on that, I started on making the connections between swerve modules. 
+
+Here is the finished swerve module:
+
+![alt text](Images/CADImages/Day3/IsometricViewDay3.png)
+
+![alt text](Images/CADImages/Day3/SideViewDay3.png)
+
+The top plate captures most of the motion to help with the axle stability. There are spacers that hold up the plates together and provide a lot of structure. 
+
+The connections between the swerve modules are going to be 3D printed, which means that they have to be chunky. 
+
+![alt text](Images/CADImages/Day3/TopViewBothConnections.png)
+
+They have holes for mounting plates on top, so it can be incredibly modular. 
+
+Next up was the base mounting plate, which would hold the batter, electronics, and radio. They have little groves to interlock with each other (since I need it to be printable on my printer) and additional mounting holes for the battery. I'll add more holes later as I see fit for mounting electronics. 
+
+![alt text](Images/CADImages/Day3/TopViewBottomPlate.png)
+
+![alt text](Images/CADImages/Day3/IsometricViewBottomPlate.png)
+
+I'm glossing over a lot of design decisions, but for the sake of time (since I spent almost an hour writing the day 1 journal) I'm simplifying everything. 
+
+Together, here is what the swerve base looks like:
+
+![alt text](Images/CADImages/Day3/IsometricViewDay3FullAssembly.png)
+
+I've also made a rudementry battery mount that will be attatched to the bottom of the swerve drive. I decided to use the Rev Slim Battery since it has a small form factor, high capacity, and high discharge rate. It also seems a lot more reliable than some sketchy battery off of Amazon. 
+
+![alt text](Images/CADImages/Day3/BatteryMount.png)
+
+After everything was done, I decided to slice some parts in Prusa Slicer and print it out to test the tolerances, fit, and durability. 
+
+The print time came out to be 15hrs with 200 grams. I did 10% infill (since these won't be the final version), .3mm layer height, and PLA. I'll do an update when the parts are finished. 
+
+Anywars, tomorrow I'll have to spend time renaming everything, assaigning PETG or PLA to parts, and doing some cleanup of the CAD since it has gotten incredibly messy. I also need to optimize the CAD since the regen times are being absolutely destroyed by the helical spur gears. Some of them are taking 20 seconds to regenerate. 
+
+Also I plan on making a battery mount that can be slid in and out, similar to a tool battery. 
