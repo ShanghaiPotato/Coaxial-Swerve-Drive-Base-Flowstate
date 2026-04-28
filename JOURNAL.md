@@ -7,6 +7,7 @@ created_at: 2026-4-23
 ### Total time spent: 6 Hours 7 mins
 
 #### Onshape Link: https://cad.onshape.com/documents/4e4e67b789c32e1c62490b55/w/3b147ca839286fae5a01baae/e/5d2ccd93d79c945d351b1f5a
+
 ## Day 1 - Designing the Base of the Swerve Drive - April 23rd - 0 Hours
 
 Today was just laying down the basics of the swerve drive by making the individual module. I did some research into which motors I want to use, and I decided to use the HD Hex motor and the Core Hex motor from Rev Robotics because they have a small form factor and are brushed motors. The brushed motors allow me to use cheaper motor controllers instead of the expensive $50-100 ones that can be sold online. 
@@ -167,3 +168,15 @@ The print time came out to be 15hrs with 200 grams. I did 10% infill (since thes
 Anywars, tomorrow I'll have to spend time renaming everything, assaigning PETG or PLA to parts, and doing some cleanup of the CAD since it has gotten incredibly messy. I also need to optimize the CAD since the regen times are being absolutely destroyed by the helical spur gears. Some of them are taking 20 seconds to regenerate. 
 
 Also I plan on making a battery mount that can be slid in and out, similar to a tool battery. 
+
+## Day  - Assemblung Version 4 Prototype 1 - April 26rd - 1 Hours 37 mins
+
+Today was an exciting day as the prints finished. I would be lying if I said the supports came off easily. Because of the horizontal orientation (and my own laziness for not wanting to find a better way to print it late at night) I spent nearly an hour just removing supports. After removing said supports, I disassembled some old projects and used those parts to assemble a prototype swerve module. It doesn't have everything, in fact, it lacks quite a lot. The gears aren't as durable as I had hoped, there are stability issues with the driving motors, etc. I plan on fixing many of these issues in version 4.5, an inbetween version. It will implement a lot of design changes to the swerve module, many arising from issues with the prototype, and many arising from the overall packaging. Will I am happy with version 4, Flowstate will need a massive upgrade if I want it to be good. 
+
+I've compared it to another compact swerve module, the MK4n and it is relatively the same size, which isn't good considering the MK4n has bigger motors, larger metal gears, and a much larger wheel. I'm going to have to change everything to HD hex motors since the Core motor just isn't working for me right now. That also means I'll probably have to find new motor controllers since the current ones can only handle 15 A peak, and the motors at stall would pump 16 A, a risk I'm not willing to take. Anyways, I'll update the CAD soon with version 4.5.
+
+Here's the photos of the print finishing and of the final prototype:
+
+![alt text](Images/Day4/Day4PrintBed.png)
+
+![alt text](Images/Day4/Day4AssembledPrototype.png)
