@@ -169,7 +169,7 @@ Anywars, tomorrow I'll have to spend time renaming everything, assaigning PETG o
 
 Also I plan on making a battery mount that can be slid in and out, similar to a tool battery. 
 
-## Day  - Assemblung Version 4 Prototype 1 - April 26rd - 1 Hours 37 mins
+## Day 4 - Assemblung Version 4 Prototype 1 - April 26rd - 1 Hours 37 mins
 
 Today was an exciting day as the prints finished. I would be lying if I said the supports came off easily. Because of the horizontal orientation (and my own laziness for not wanting to find a better way to print it late at night) I spent nearly an hour just removing supports. After removing said supports, I disassembled some old projects and used those parts to assemble a prototype swerve module. It doesn't have everything, in fact, it lacks quite a lot. The gears aren't as durable as I had hoped, there are stability issues with the driving motors, etc. I plan on fixing many of these issues in version 4.5, an inbetween version. It will implement a lot of design changes to the swerve module, many arising from issues with the prototype, and many arising from the overall packaging. Will I am happy with version 4, Flowstate will need a massive upgrade if I want it to be good. 
 
@@ -180,3 +180,17 @@ Here's the photos of the print finishing and of the final prototype:
 ![alt text](Images/Day4/Day4PrintBed.png)
 
 ![alt text](Images/Day4/Day4AssembledPrototype.png)
+
+## Day  - Designing Version 4.5 - April 27rd - 2 Hours 5 mins
+
+Version 4.5 is halfway done. I got the entire module itself along with the gears, however, I haven't made the mounting yet and I need to work on some of the gear ratio transfer since I am trying to reduce every down as much as possible. I'm trying to go for a 5in x 7in footprint. Here are some photos. 
+
+![alt text](Images/Day5/DrivingGearsMotionTransfer.png)
+
+![alt text](Images/Day5/DrivingWheel.png)
+
+![alt text](Images/Day5/IsometricViewSwerveTurnMotion.png)
+
+![alt text](Images/Day5/RoughLayout.png)
+
+I would explain more details, however, most of it is the same as the day 1 CAD, just a bit more optimized. A key thing is that I moved the bearings off of the wheel mounts as it would prevent the driving bevel gear to constrain itelf with a bearing. 
