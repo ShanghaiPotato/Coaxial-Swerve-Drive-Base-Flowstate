@@ -106,7 +106,7 @@ Here are just some visualization photos of everything done so far in one piece. 
 
 Anyways, that was about everything done today so far, and the next task is to create the motor packaging that will power this entire setup. 
 
-## Day 2 - Making the proper motion transfer - April 24rd - 1 Hours 37 mins
+## Day 2 - Making the proper motion transfer - April 24th - 1 Hours 37 mins
 
 Today's focus was trying to figure out motor placement. It matters a lot because packaging impacts the footprint and arraigment of everything. 
 
@@ -127,7 +127,7 @@ Anyways, that was most of it for today. I wish I could have gotten more done, ho
 
 Side note: I am going to be using an ESP-32 S3 for the micro-controller. I am researching how it works right now, but the main reason why I chose it was because it has wifi and bluetooth capabilities, meaning I can just use my phone or laptap and connect to it. Then using a website, you can control the robot. No fancy controller required. 
 
-## Day 3 - Creating the chassis - April 25rd - 4 Hours 30 mins
+## Day 3 - Creating the chassis - April 25th - 4 Hours 30 mins
 
 Today was finishing the entire drive base, or at least most of it. The main time since was just readjusting all of the geometry again since it wasn't that optimized. After spending about an hour on that, I started on making the connections between swerve modules. 
 
@@ -169,7 +169,7 @@ Anywars, tomorrow I'll have to spend time renaming everything, assaigning PETG o
 
 Also I plan on making a battery mount that can be slid in and out, similar to a tool battery. 
 
-## Day 4 - Assemblung Version 4 Prototype 1 - April 26rd - 1 Hours 37 mins
+## Day 4 - Assemblung Version 4 Prototype 1 - April 26th - 1 Hours 37 mins
 
 Today was an exciting day as the prints finished. I would be lying if I said the supports came off easily. Because of the horizontal orientation (and my own laziness for not wanting to find a better way to print it late at night) I spent nearly an hour just removing supports. After removing said supports, I disassembled some old projects and used those parts to assemble a prototype swerve module. It doesn't have everything, in fact, it lacks quite a lot. The gears aren't as durable as I had hoped, there are stability issues with the driving motors, etc. I plan on fixing many of these issues in version 4.5, an inbetween version. It will implement a lot of design changes to the swerve module, many arising from issues with the prototype, and many arising from the overall packaging. Will I am happy with version 4, Flowstate will need a massive upgrade if I want it to be good. 
 
@@ -181,7 +181,7 @@ Here's the photos of the print finishing and of the final prototype:
 
 ![alt text](Images/Day4/Day4AssembledPrototype.png)
 
-## Day  - Designing Version 4.5 - April 27rd - 2 Hours 5 mins
+## Day 5 - Designing Version 4.5 - April 27th - 2 Hours 5 mins
 
 Version 4.5 is halfway done. I got the entire module itself along with the gears, however, I haven't made the mounting yet and I need to work on some of the gear ratio transfer since I am trying to reduce every down as much as possible. I'm trying to go for a 5in x 7in footprint. Here are some photos. 
 
@@ -194,3 +194,65 @@ Version 4.5 is halfway done. I got the entire module itself along with the gears
 ![alt text](Images/Day5/RoughLayout.png)
 
 I would explain more details, however, most of it is the same as the day 1 CAD, just a bit more optimized. A key thing is that I moved the bearings off of the wheel mounts as it would prevent the driving bevel gear to constrain itelf with a bearing. 
+
+## Day 6 - Making the Case and Fixing the Gears - April 28th - 3 Hours 5 mins
+
+Today I spent making the plates for the swerve module. It turned out to be an octogon shape for right now, but it will probably change later when I designthe cover for the module. 
+
+![alt text](image.png)
+
+This is also a rough motor mount I made. I need to finalize it a little bit more since it feels incredibly clunky.
+
+![alt text](image-1.png)
+
+I've also made all the gears much smaller. This came after making the cover for the swerve drive and realizing that the gears make the entire module incredibly tall. The gears are .5in in width, so by halfing it to the standard .25in, I can save roughly .75in of space. It actually turned out to be more, as reducing the thickness of the gears also reduced the spacing required between pieces. 
+
+![alt text](image-2.png)
+
+Here is also the cover I made for the swerve drive. It encapsulates everything and traps the motion very well. 
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+The cover has variable height so that way gears can be hidden and constrained very well. There are bearing insets for constraining motion. THe overall design was heavily inspired by the MK5n as it has a very clean cover for the entire swerve drive. 
+
+That's most of everything for today, most of the time was just jumping between part studios to check for exact dimensions. 
+
+## Day 7 - Some Minor Work - April 29th - 0 Hours 8 mins
+
+Today was just recoloring everything in OnShape so it looks more pleasing. 
+
+## Day 8 - Redesigning the Case and Mounts - April 30th - 1 Hours 32 mins
+
+I remoade the case and mounts as I didn't particularily like the shape. There was also a lot of wasted space as the edge to edge distance of the bearing and edge of the plate is way too big. It causes the wheel to sit closer to the center of the drivebase, reducing the footprint and increasing the chance that the drivebase can tip over (if I decide to build something tall or heavy on top of it). In the redesign of the plate, I removed most of the holes as they are mostly redundant and useless. I also added small extrusions on the corners. This is similar to most swerve drives, and it allows for a more robust connection with other parts. 
+
+Here is the finished layout for the mounts. The placement of the motor and everything remains the same. 
+
+![alt text](image-5.png)
+
+The next major thing that needed change was the cover. This time I just made it in the same part studio for easier access and to speed up the workflow. It has the same general idea, but a few holes for mounting it directly to the swerve module. It has to be mounted though, as it does constrain motion and without it the module would fall apart. Another key thing is that I also integrated the driving motor mounting into this new design. It is a separate part that mounts to the motor, and the gear is placed on top, and then the entire part is mounted to the cover. 
+
+Here is the new swerve module with minimal mounting points:
+
+![alt text](image-6.png)
+
+Here is the piece that mounts to the motor and then mounts to the cover:
+
+![alt text](image-7.png)
+
+Here is both pieces together:
+
+![alt text](image-8.png)
+
+Here is the entire module when assembled:
+
+![alt text](image-9.png)
+
+Here is the rough draft the four modules all together:
+
+![alt text](image-10.png)
+
+The rough dimensions come out to be 15.5" x 15.5" with a height (with just the swerves) of 4.75". The distance between the modules on the short side is 3" and the distance between modules on the long side is 6". 
+
+I think there are ways to save even more space, with maybe a smaller bearing, more effecient gear reductions, etc. As of right now though, I am perfectly happy with version 4.5. It does a lot of things that version 4 failed to do. I think the best part is the .25" gears, which saves a lot of verticle space and makes it viable as a smaller swerve drive module for lighter robots. 
